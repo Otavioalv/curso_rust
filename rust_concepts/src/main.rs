@@ -2,21 +2,25 @@ fn main() {
     println!("Hello, world!");
 
     // exemple_todo();
+    println!("Exemplo de colocar variaveis concatenadas no print (exemple_sub_argument) \n");
     exemple_sub_argument();
+
+    println!("Exemplo de variaveis (variaveis)\n");
     variaveis();
+
+    println!("Exemplo de sombreamento (sombreamento)\n");
     sombreamento();
 }
 
 fn exemple_sub_argument() {
-    println!("\nExemplo de como concatenar variaveis ou valores em uma string");
     println!("{} + {} = {}", 1, 2, 3);
 }
 
 fn variaveis() {
-    // variavel imutavel (variavel)
+    // variavel imutavel (constante)
     let a_number = 10;
 
-    // variavel mutavel (constante)
+    // variavel mutavel (variavel)
     let mut b_number = 20;
     
     println!("\nb: {}", b_number);
